@@ -68,8 +68,8 @@ function fetchdata(){
 function show(el){
     return `
      
-    <div class="w-[87%]  flex  m-[auto]">
-        <div class="w-[50%] h-[100vh]">
+    <div class="xl:w-[87%] flex flex-wrap m-[auto]">
+        <div class="w-full xl:w-[50%] h-[100vh] my-2">
             <div class="w-[100%] h-[400px]">
                 <div class="w-[100%] h-[400px] flex justify-evenly">
                     <div class="w-[40%] h-[370px]  rounded-2xl">
@@ -100,7 +100,7 @@ function show(el){
         </div>
 
         <!--  -->
-        <div class="w-[50%]   p-1 ">
+        <div class="w-full xl:w-[50%] p-1">
             <!-- home -->
             <div class="w-[100%] h-[45px] leading-[40px]">
                 <p class="text-[13px] text-slate-500">Home > Women's cl..> Ethnic Wear > Suits > biba off White...</p>
